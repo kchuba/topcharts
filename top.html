@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+  <html>
+  <head>
+	   <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+	    <title> Top 10 Songs of 2016 </title>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"> </script>
+      <script src="js/highcharts.js"></script>
+	    <link href="css/top.css" rel="stylesheet">
+  </head>
+
+  <body>
+
+    <header>
+      <section id='bar'>
+    	<h1>Top 10 Songs of 2016</h1>
+
+    	<nav>
+    	<ul>
+    		<li><a href="#one">No.1</a></li>
+    		<li><a href="#two">No.2</a></li>
+    		<li><a href="#three">No.3</a></li>
+        <li><a href="#four">No.4</a></li>
+        <li><a href="#five">No.5</a></li>
+        <li><a href="#six">No.6</a></li>
+        <li><a href="#seven">No.7</a></li>
+        <li><a href="#eight">No.8</a></li>
+        <li><a href="#nine">No.9</a></li>
+        <li><a href="#ten">No.10</a></li>
+    	</ul>
+    	</nav>
+    </section>
+    </header>
+
+    <section id="one">
+      <h2>No.1</h2>
+      <article id ='border'>
+        <img id ='test1' class ='test' src ='http://placekitten.com/300/300' alt ='test1'>
+        <div id = 'text1'><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin scelerisque semper felis non pulvinar. Aliquam erat volutpat.</p></div>
+
+        <img id ='test2' class ='test' src ='http://placekitten.com/g/300/300' alt ='test2'>
+        <div id = 'text2'><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin scelerisque semper felis non pulvinar. Aliquam erat volutpat.</p></div>
+
+        <img id ='test3' class ='test' src ='http://placekitten.com/300/300' alt ='test3'>
+        <div id = 'text3'><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin scelerisque semper felis non pulvinar. Aliquam erat volutpat.</p></div>
+      </article>
+
+      <article>
+        <p>AUDIO CLIP</p>
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin scelerisque semper felis non pulvinar. Aliquam erat volutpat. Phasellus aliquam iaculis felis sed mattis. Sed pulvinar purus condimentum enim tristique luctus. Praesent sollicitudin pharetra enim, nec tristique enim fermentum finibus. Proin velit est, euismod pellentesque maximus sit amet, interdum sit amet elit. Donec hendrerit sapien nisi. Maecenas rhoncus ultricies leo at porta. Donec tristique quis est in pretium. Sed lacinia mauris in risus viverra, a tincidunt tortor euismod. Ut at scelerisque nulla, eu viverra purus.</p>
+      </article>
+
+    <article>
+      <div id= 'container'></div>
+
+    <script>
+    $(function () {
+    Highcharts.chart('container', {
+        chart: {
+            type: 'line'
+        },
+        title: {
+            text: 'Song on the Charts (dummy content)'
+        },
+        subtitle: {
+            text: 'Source: WorldClimate.com'
+        },
+        xAxis: {
+            categories: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
+        },
+        yAxis: {
+            title: {
+                text: 'Temperature (°C)'
+            }
+        },
+        plotOptions: {
+            line: {
+                dataLabels: {
+                    enabled: true
+                },
+                enableMouseTracking: false
+            }
+        },
+        series: [{
+            name: 'Tokyo',
+            data: [7.0, 6.9, 9.5, 14.5, 18.4, 21.5, 25.2, 26.5, 23.3, 18.3, 13.9, 9.6]
+        }, {
+            name: 'London',
+            data: [3.9, 4.2, 5.7, 8.5, 11.9, 15.2, 17.0, 16.6, 14.2, 10.3, 6.6, 4.8]
+        }]
+    });
+});
+  </script>
+    </article>
+    </section>
+
+
+    <section id="two">
+        <h2>No.2</h2>
+        <article id ='border'>
+        <img id ='test4' class ='test' src ='http://placekitten.com/300/300' alt ='test4'>
+        <div id = 'text4'><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin scelerisque semper felis non pulvinar. Aliquam erat volutpat.</p></div>
+
+        <img id ='test5' class ='test' src ='http://placekitten.com/g/300/300' alt ='test5'>
+        <div id = 'text5'><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin scelerisque semper felis non pulvinar. Aliquam erat volutpat.</p></div>
+
+        <img id ='test6' class ='test' src ='http://placekitten.com/300/300' alt ='test6'>
+        <div id = 'text6'><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin scelerisque semper felis non pulvinar. Aliquam erat volutpat.</p></div>
+      </article>
+
+      <article>
+        <p>AUDIO CLIP</p>
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin scelerisque semper felis non pulvinar. Aliquam erat volutpat. Phasellus aliquam iaculis felis sed mattis. Sed pulvinar purus condimentum enim tristique luctus. Praesent sollicitudin pharetra enim, nec tristique enim fermentum finibus. Proin velit est, euismod pellentesque maximus sit amet, interdum sit amet elit. Donec hendrerit sapien nisi. Maecenas rhoncus ultricies leo at porta. Donec tristique quis est in pretium. Sed lacinia mauris in risus viverra, a tincidunt tortor euismod. Ut at scelerisque nulla, eu viverra purus.</p>
+      </article>
+
+      <article>
+      <div id= 'container2'></div>
+
+      <script>
+      $(function () {
+      Highcharts.chart('container2', {
+        chart: {
+            type: 'line'
+        },
+        title: {
+            text: 'Song on the Charts (dummy content)'
+        },
+        subtitle: {
+            text: 'Source: WorldClimate.com'
+        },
+        xAxis: {
+            categories: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
+        },
+        yAxis: {
+            title: {
+                text: 'Temperature (°C)'
+            }
+        },
+        plotOptions: {
+            line: {
+                dataLabels: {
+                    enabled: true
+                },
+                enableMouseTracking: false
+            }
+        },
+        series: [{
+            name: 'Tokyo',
+            data: [7.0, 6.9, 9.5, 14.5, 18.4, 21.5, 25.2, 26.5, 23.3, 18.3, 13.9, 9.6]
+        }, {
+            name: 'London',
+            data: [3.9, 4.2, 5.7, 8.5, 11.9, 15.2, 17.0, 16.6, 14.2, 10.3, 6.6, 4.8]
+        }]
+      });
+      });
+      </script>
+      </article>
+      </section>
+
+    <section id="three">
+        <h2>No.3</h2>
+        <img src=>
+
+      <article>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin scelerisque semper felis non pulvinar. Aliquam erat volutpat. Phasellus aliquam iaculis felis sed mattis. Sed pulvinar purus condimentum enim tristique luctus. Praesent sollicitudin pharetra enim, nec tristique enim fermentum finibus. Proin velit est, euismod pellentesque maximus sit amet, interdum sit amet elit. Donec hendrerit sapien nisi. Maecenas rhoncus ultricies leo at porta. Donec tristique quis est in pretium. Sed lacinia mauris in risus viverra, a tincidunt tortor euismod. Ut at scelerisque nulla, eu viverra purus.</p>
+      </article>
+    </section>
+
+    <section id="four">
+        <h2>No.4</h2>
+        <img src=>
+
+      <article>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin scelerisque semper felis non pulvinar. Aliquam erat volutpat. Phasellus aliquam iaculis felis sed mattis. Sed pulvinar purus condimentum enim tristique luctus. Praesent sollicitudin pharetra enim, nec tristique enim fermentum finibus. Proin velit est, euismod pellentesque maximus sit amet, interdum sit amet elit. Donec hendrerit sapien nisi. Maecenas rhoncus ultricies leo at porta. Donec tristique quis est in pretium. Sed lacinia mauris in risus viverra, a tincidunt tortor euismod. Ut at scelerisque nulla, eu viverra purus.</p>
+      </article>
+    </section>
+
+    <section id="five">
+        <h2>No.5</h2>
+        <img src=>
+
+      <article>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin scelerisque semper felis non pulvinar. Aliquam erat volutpat. Phasellus aliquam iaculis felis sed mattis. Sed pulvinar purus condimentum enim tristique luctus. Praesent sollicitudin pharetra enim, nec tristique enim fermentum finibus. Proin velit est, euismod pellentesque maximus sit amet, interdum sit amet elit. Donec hendrerit sapien nisi. Maecenas rhoncus ultricies leo at porta. Donec tristique quis est in pretium. Sed lacinia mauris in risus viverra, a tincidunt tortor euismod. Ut at scelerisque nulla, eu viverra purus.</p>
+      </article>
+    </section>
+
+    <section id="six">
+        <h2>No.6</h2>
+        <img src=>
+
+      <article>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin scelerisque semper felis non pulvinar. Aliquam erat volutpat. Phasellus aliquam iaculis felis sed mattis. Sed pulvinar purus condimentum enim tristique luctus. Praesent sollicitudin pharetra enim, nec tristique enim fermentum finibus. Proin velit est, euismod pellentesque maximus sit amet, interdum sit amet elit. Donec hendrerit sapien nisi. Maecenas rhoncus ultricies leo at porta. Donec tristique quis est in pretium. Sed lacinia mauris in risus viverra, a tincidunt tortor euismod. Ut at scelerisque nulla, eu viverra purus.</p>
+      </article>
+    </section>
+
+    <section id="seven">
+        <h2>No.7</h2>
+        <img src=>
+
+      <article>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin scelerisque semper felis non pulvinar. Aliquam erat volutpat. Phasellus aliquam iaculis felis sed mattis. Sed pulvinar purus condimentum enim tristique luctus. Praesent sollicitudin pharetra enim, nec tristique enim fermentum finibus. Proin velit est, euismod pellentesque maximus sit amet, interdum sit amet elit. Donec hendrerit sapien nisi. Maecenas rhoncus ultricies leo at porta. Donec tristique quis est in pretium. Sed lacinia mauris in risus viverra, a tincidunt tortor euismod. Ut at scelerisque nulla, eu viverra purus.</p>
+      </article>
+    </section>
+
+    <section id="eight">
+        <h2>No.8</h2>
+        <img src=>
+
+      <article>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin scelerisque semper felis non pulvinar. Aliquam erat volutpat. Phasellus aliquam iaculis felis sed mattis. Sed pulvinar purus condimentum enim tristique luctus. Praesent sollicitudin pharetra enim, nec tristique enim fermentum finibus. Proin velit est, euismod pellentesque maximus sit amet, interdum sit amet elit. Donec hendrerit sapien nisi. Maecenas rhoncus ultricies leo at porta. Donec tristique quis est in pretium. Sed lacinia mauris in risus viverra, a tincidunt tortor euismod. Ut at scelerisque nulla, eu viverra purus.</p>
+      </article>
+    </section>
+
+    <section id="nine">
+        <h2>No.9</h2>
+        <img src=>
+
+
+      <article>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin scelerisque semper felis non pulvinar. Aliquam erat volutpat. Phasellus aliquam iaculis felis sed mattis. Sed pulvinar purus condimentum enim tristique luctus. Praesent sollicitudin pharetra enim, nec tristique enim fermentum finibus. Proin velit est, euismod pellentesque maximus sit amet, interdum sit amet elit. Donec hendrerit sapien nisi. Maecenas rhoncus ultricies leo at porta. Donec tristique quis est in pretium. Sed lacinia mauris in risus viverra, a tincidunt tortor euismod. Ut at scelerisque nulla, eu viverra purus.</p>
+      </article>
+    </section>
+
+    <section id="ten">
+        <h2>No.10</h2>
+        <img src=>
+
+      <article>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin scelerisque semper felis non pulvinar. Aliquam erat volutpat. Phasellus aliquam iaculis felis sed mattis. Sed pulvinar purus condimentum enim tristique luctus. Praesent sollicitudin pharetra enim, nec tristique enim fermentum finibus. Proin velit est, euismod pellentesque maximus sit amet, interdum sit amet elit. Donec hendrerit sapien nisi. Maecenas rhoncus ultricies leo at porta. Donec tristique quis est in pretium. Sed lacinia mauris in risus viverra, a tincidunt tortor euismod. Ut at scelerisque nulla, eu viverra purus.</p>
+      </article>
+    </section>
+
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/top.js"></script>
+
+
+  </body>
+  </html>
