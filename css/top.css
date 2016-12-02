@@ -16,10 +16,28 @@ h1 {
   text-align: left;
 }
 
+h2 {
+  animation-duration: 15s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
 #border{
   background:#fff;
   padding:20px;
-  width:80%;
+  width:77%;
   margin:auto;
 }
 
@@ -28,77 +46,97 @@ h1 {
   color:#fff;
   clear: both;
   overflow: auto;
-  width: 100%;
 }
 
 #one {
   background: #B1B5BA;
   color: #000;
-  width: 95%;
   padding:30px;
+  overflow: hidden;
 }
 
+#info1 {
+  padding: 10px 100px;
+}
+
+
 #two {
-    background: #D1EDD3;
+    background: #AB5C53;
     color: #000;
-    width: 95%;
     padding:30px;
+    overflow: hidden;
+  }
+
+#info2 {
+    padding: 10px 100px;
   }
 
 #three {
     background: #B1B5BA;
     color: #000;
-    width: 95%;
     padding:30px;
+    overflow: hidden;
 }
 
+#info3 {
+    padding: 10px 100px;
+  }
+
 #four {
-    background: #D1EDD3;
+    background: #AB5C53;
     color: #000;
-    width: 95%;
     padding:30px;
+    overflow: hidden;
 }
+
+#info4 {
+    padding: 10px 100px;
+  }
 
 #five {
     background: #B1B5BA;
     color: #000;
-    width: 95%;
     padding:30px;
+    overflow: hidden;
 }
 
+#info5 {
+    padding: 10px 100px;
+  }
+
 #six {
-    background: #D1EDD3;
+    background: #AB5C53;
     color: #000;
-    width: 95%;
     padding:30px;
+    overflow: hidden;
 }
 
 #seven {
     background: #B1B5BA;
     color: #000;
-    width: 95%;
     padding:30px;
+    overflow: hidden;
 }
 
 #eight {
-    background: #D1EDD3;
+    background: #AB5C53;
     color: #000;
-    width: 95%;
     padding:30px;
+    overflow: hidden;
 }
 
 #nine {
     background: #B1B5BA;
     color: #000;
-    width: 95%;
     padding:30px;
+    overflow: hidden;
 }
 
 #ten {
-    background: #D1EDD3;
+    background: #AB5C53;
     color: #000;
-    width: 95%;
     padding:30px;
+    overflow: hidden;
 }
 
 nav ul {
@@ -111,18 +149,39 @@ nav li {
   margin: auto;
   padding: 10px 30px;
 }
-a { color: #D1EDD3; }
+a { color: #619CB8; }
 a:hover { color: #82E8FF; }
 
 #container{
   width: 75%;
   height: 300px;
+  margin: auto;
 }
 
 #container2{
   width: 75%;
   height: 300px;
+  margin: auto;
 }
+
+#container3{
+  width: 75%;
+  height: 300px;
+  margin: auto;
+}
+
+#container4{
+  width: 75%;
+  height: 300px;
+  margin: auto;
+}
+
+#container5{
+  width: 75%;
+  height: 300px;
+  margin: auto;
+}
+
 
 @media (max-width: 800px ) {
   h1{width:100%;}
