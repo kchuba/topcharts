@@ -11,6 +11,12 @@ header {
   margin: 0px;
 }
 
+#intro{
+  font-size:80%;
+  margin:0;
+  padding:0;
+}
+
 h1 {
   margin: 0px;
   padding: 20px 30px;
@@ -294,5 +300,45 @@ a:hover { color: #82E8FF; }
   #container10{
       margin:auto;
       width:100%;
-      }      
+      }
+
+  #info1{
+    padding:10px;
+  }
+
+  #info2{
+    padding:10px;
+  }
+
+  #info3{
+    padding:10px;
+  }
+
+  #info4{
+    padding:10px;
+  }
+
+  #info5{
+    padding:10px;
+  }
+
+  #info6{
+    padding:10px;
+  }
+
+  #info7{
+    padding:10px;
+  }
+
+  #info8{
+    padding:10px;
+  }
+
+  #info9{
+    padding:10px;
+  }
+
+  #info10{
+    padding:10px;
+  }
   }
